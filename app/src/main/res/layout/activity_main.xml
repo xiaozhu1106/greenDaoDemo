@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zzb.greendaodemo.MainActivity">
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入保存时间"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间格式输入例如: 2017-10-18 19:30"/>
+    <EditText
+        android:id="@+id/et_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入保存内容"
+        />
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="保存数据"/>
+
+
+    <EditText
+        android:id="@+id/et_query_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请输入查询时间"
+       />
+    <Button
+        android:id="@+id/btn_get"
+        android:text="获取当前时间数据"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <Button
+        android:id="@+id/btn_get_all"
+        android:text="获取所有数据"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_show_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+
+</LinearLayout>
