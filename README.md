@@ -1,7 +1,9 @@
 # greenDaoDemo
 这是一个GreenDao3.2.0使用Demo，并附有详细教程
+此Demo详细介绍地址：http://www.jianshu.com/p/510f3d9fb35e
 
-    @OnClick({R.id.btn_save, R.id.btn_get, R.id.btn_get_all})
+部分使用代码：
+    @OnClick({R.id.btn_save, R.id.btn_get, R.id.btn_get_all})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btn_save: //保存数据
